@@ -1,0 +1,181 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #4e16c9; 
+    --secondary-color: rgb(255, 190, 92);
+    --off-white: #e2e2e2;
+    --dark-gray:#313131; 
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--secondary-color);
+    margin: px;
+}
+
+
+hr {
+    margin: 2rem 0rem;
+}
+
+/** spaces **/
+
+.margin-md {
+    margin: 1rem;
+}
+
+
+/** navigation displays the upper part of the site**/
+
+.navigation {
+    background-color:var(--primary-color);
+    padding: 3rem 1rem;
+    text-align: center;
+    color: white;
+    border-radius: 1.2rem;
+
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.3rem;
+    color:white;
+    
+
+}
+
+
+/** header which shows .svg image **/
+
+.heading-one {
+    text-align: center;
+
+    color:var(--primary-color);
+    padding: 5rem;
+    padding-top: 5rem;
+}
+.heading-one-inv {
+    text-align: right;
+    color:white;
+    padding-top: 5rem;
+    text-align: center;
+
+   
+    
+}
+
+#btn-translate {
+       
+width:75%;
+    display:block;
+    margin: 5rem;
+    padding: 3rem;
+    height:10vh;
+    background-color:var(--primary-color);
+    text-align: center;
+    border-radius: 2.3rem;
+    border-width: 0ch;
+    font-weight:bold;
+  
+  }
+
+
+
+
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+    text-align: center;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+    font-weight:bold;
+    text-decoration: none;
+
+}
+
+.section h1 {
+    text-align: center;
+text-decoration: none;
+border-radius:1rem;
+color: white;
+
+
+}
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: black;
+    padding: 1rem 1rem;
+}
+
+
+
+
+
+
+footer {
+    background-color:var(--primary-color);
+    padding: 3rem 1rem;
+    text-align: center;
+    color: white;
+    border-radius: 1.2rem;
+}
+
+.footer .link {
+    color: white
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+.
+
+#btn-translate {
+text-align: center;
+
+padding:3rem 1rem;
+text-decoration: none;
+border-radius:1.2rem;
+background-color: var(--secondary-color);
+color:white;
+font-weight: bold;
+    
+}
+
+  textarea{
+   width:70%;
+    display:block;
+    margin: 5rem;
+    padding: 3rem;
+    height:10vh;
+    background-color:var(--off-white);
+    text-align: center;
+    border-radius: 2.3rem;
+    border-color: var(--off-white);
+    font-weight:bold;
+ 
+}
+   #output{
+    background-color:var(--off-white);
+    padding: 3rem ;
+    text-align: center;
+    color:black;
+    border-radius: 1.2rem;
+    margin:5rem;
+}
+.header{
+    text-align: center;
+    padding-bottom: 1rem;
+    color:black;
+}
+
+ 
