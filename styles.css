@@ -1,5 +1,5 @@
 
-/* #4e16c9  #f35909;    #313131; ;*/
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
@@ -54,14 +54,17 @@ hr {
     text-align: center;
 
     color:var(--primary-color);
-    padding: 10rem;
+    padding: 5rem;
     padding-top: 5rem;
 }
 .heading-one-inv {
-    text-align: center;
-    padding-bottom: 1rem;
+    text-align: right;
     color:white;
     padding-top: 5rem;
+    text-align: center;
+
+   
+    
 }
 
 #btn-translate {
@@ -75,7 +78,7 @@ width:75%;
     text-align: center;
     border-radius: 2.3rem;
     border-width: 0ch;
-    
+    font-weight:bold;
   
   }
 
@@ -158,6 +161,7 @@ font-weight: bold;
     text-align: center;
     border-radius: 2.3rem;
     border-color: var(--off-white);
+    font-weight:bold;
  
 }
    #output{
