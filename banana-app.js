@@ -26,7 +26,7 @@ console.log('error occured',error)
 
 function clickHandler(){
 
-   //outputDiv.innerText = "aksfsgahdsdw " + txtInput.value;
+
  var inputText = txtInput.value;
  
 fetch(getTranslationURL(inputText))
